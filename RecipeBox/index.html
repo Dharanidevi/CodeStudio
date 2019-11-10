@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Marck+Script|Oxygen&display=swap" rel="stylesheet">
+
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- FontAwesome -->
+  <script src="https://kit.fontawesome.com/121772266e.js" crossorigin="anonymous"></script>
+  <link rel="icon" href="images/favicon.ico">
+  <title>Recipe Box</title>
+</head>
+
+<body>
+
+  <section id="title" class="white-section">
+
+    <div class="container">
+
+      <!-- Navigation Bar  -->
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#home">RecipeBox</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse coloured-bg" id="navbarToggle">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link option-link" href="#home">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link option-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link option-link" href="#promotions">Promotions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link option-link " href="login.html">Recipe</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Title -->
+      <div class="row">
+        <div class="col-md-6 d-sm-block d-md-none d-lg-none">
+          <img src="images/chef.png" class="" alt="chef">
+        </div>
+        <div class="col-md-6 title-image-mobile">
+          <h1 class="big-heading">Recipe Box <i class="fas fa-pepper-hot 2x logo-color"></i></h1>
+          <h2 class="sub-heading">Try our recipes now!</h2>
+          <a href="#services"><button type="button" class="click-button btn btn-warning btn-lg d-none d-md-block d-lg-block" href="#services"><i class="fa fa-utensils"></i> Explore</button></a>
+
+          <a href="#"><button type="button" class="click-button btn btn-outline-dark btn-lg d-none d-md-block d-lg-block"><i class="fa fa-phone-alt"></i> Contact</button></a>
+
+          <a href="#services"><button type="button" class="click-button btn btn-warning btn-lg d-sm-block d-md-none d-lg-none btn-lg btn-block"><i class="fa fa-utensils"></i> Explore</button></a>
+
+          <a href="#"><button type="button" class="click-button title-button-mobile btn btn-outline-dark btn-lg d-sm-block d-md-none d-lg-none btn-lg btn-block"><i class="fa fa-phone-alt"></i> Contact</button></a>
+        </div>
+        <div class="col-md-6 d-none d-md-block d-lg-block ">
+          <img src="images/chef.png" class="title-image" alt="chef">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="coloured-section">
+    <div class="container">
+      <h2 class="title-heading-text red">Services</h2>
+
+      <div class="row">
+        <div class="services-box col-lg-4">
+          <i class="icon fas fa-utensils fa-4x"></i>
+          <h3 class="services-title">Lorem ipsum.</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, totam!</p>
+        </div>
+        <div class="services-box col-lg-4">
+          <i class="icon fas fa-pizza-slice fa-4x"></i>
+          <h3 class="services-title">Lorem ipsum.</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, totam!</p>
+        </div>
+        <div class="services-box col-lg-4">
+          <i class="icon fas fa-seedling fa-4x"></i>
+          <h3 class="services-title">Lorem ipsum.</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, totam!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Promotions -->
+
+  <section class="colored-section" id="promotions">
+    <div class="container">
+      <h2 class="title-heading-text">Promotions</h2>
+      <div id="promotion-carousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="3000" data-pause="hover">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="promotion-image" src="https://images.unsplash.com/photo-1473093226795-af9932fe5856?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=685&q=80" alt="dog-profile">
+            <h2 class="promotion-text">Lorem ipsum dolor sit amet.</h2>
+          </div>
+          <div class="carousel-item">
+            <img class="promotion-image" src="https://images.unsplash.com/photo-1506354666786-959d6d497f1a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=685&q=80" alt="lady-profile">
+            <h2 class="promotion-text">Qui omnis pariatur sit architecto praesentium explicabo.</h2>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#promotion-carousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#promotion-carousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- recipe -->
+
+  <section id="recipe">
+    <div class="container">
+      <h2 class="title-heading-text">Recipes</h2>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1562723856-7e22677cc69c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title recipe-title">Pizza</h5>
+              <p class="card-text recipe-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui est ducimus nostrum neque omnis aperiam tempore saepe minus ratione doloribus!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1567444745216-86f8886e252f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=753&q=80" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title recipe-title">Pasta</h5>
+              <p class="card-text recipe-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui est ducimus nostrum neque omnis aperiam tempore saepe minus ratione doloribus!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1567619457295-814fa87f0821?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=753&q=80" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title recipe-title">Wanton Soup</h5>
+              <p class="card-text recipe-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui est ducimus nostrum neque omnis aperiam tempore saepe minus ratione doloribus!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1469533778471-92a68acc3633?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title recipe-title">Muffins</h5>
+              <p class="card-text recipe-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui est ducimus nostrum neque omnis aperiam tempore saepe minus ratione doloribus!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1495085570317-992279e0c33d?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title recipe-title">Cookies</h5>
+              <p class="card-text recipe-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui est ducimus nostrum neque omnis aperiam tempore saepe minus ratione doloribus!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1470124182917-cc6e71b22ecc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title recipe-title">Pink Macarons</h5>
+              <p class="card-text recipe-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui est ducimus nostrum neque omnis aperiam tempore saepe minus ratione doloribus!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="footer" class="coloured-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h1 class="footer-heading">Recipe Box <i class="fas fa-pepper-hot logo-color"></i></h1>
+        </div>
+        <div class="col-md-6">
+          <h1 class="footer-subheading">Follow Us</h1>
+          <i class="social-icon fab fa-facebook-f"></i>
+          <i class="social-icon fab fa-twitter"></i>
+          <i class="social-icon fab fa-instagram"></i>
+        </div>
+      </div>
+      <div class="row">
+        <p>© Copyright 2019 Recipe Box | Dharani</p>
+      </div>
+    </div>
+  </footer>
+
+  <!--  Optional JavaScript
+  jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
