@@ -1,0 +1,583 @@
+/* FOR ALL MEDIA */
+
+html {
+  scroll-behavior: smooth;
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Muli', sans-serif;
+}
+
+i {
+  margin-right: 10px;
+}
+
+section {
+  height: auto;
+}
+
+
+/* Utilities */
+.button-proceed {
+  border-radius: 5px;
+  padding: 5px 25px;
+  background-color: #ff502f;
+  color: #fff;
+  margin-right: 3px;
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+.button-proceed:hover {
+  color: #fff;
+  background-color: #3f3d56;
+  transition: 0.3s all ease;
+}
+
+.button {
+  color: #ff502f !important;
+  font-weight: bold;
+  display: block;
+}
+
+h2.title {
+  /*  font-family: 'Playfair Display', serif;*/
+  font-family: 'Playfair Display', serif;
+  color: #ff502f;
+  text-transform: capitalize;
+  font-size: 2.5rem;
+  margin: 20px;
+  line-height: 2;
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+h2.title::after {
+  content: '';
+  display: block;
+  padding-bottom: 3px;
+  background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+}
+
+.content h4 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.content p {
+  font-size: 18px;
+  font-weight: lighter;
+  margin-top: 50px;
+}
+
+
+
+/* Navbar */
+
+.navbar-brand {
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+}
+
+.nav-link,
+.button {
+  color: #262626;
+  margin-right: 20px;
+  text-align: center;
+}
+
+
+/* Jumbotron */
+
+.jumbotron {
+  background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+  height: 440px;
+  text-align: center;
+}
+
+.jumbotron .container {
+  margin-top: -15px;
+}
+
+.jumbotron .display-4 {
+  color: #fff;
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  font-weight: bold;
+  /*  margin-top: 5p  x;*/
+  margin-bottom: 10px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.jumbotron .lead {
+  color: #fff;
+  font-size: 14px;
+}
+
+.jumbotron img {
+  width: 100%;
+  margin-top: 45px;
+  /*  margin-left: 0px;*/
+}
+
+/* ABOUT SECTION*/
+
+#about img {
+  width: 100%;
+  margin-top: -20px;
+}
+
+.content {
+  text-align: center;
+  margin: 55px 0;
+  padding-bottom: 10px;
+}
+
+/* Services */
+.card-style {
+  border-radius: 5px;
+  max-width: 30rem;
+  margin-bottom: 50px;
+}
+
+.card-style::before {
+  content: '';
+  display: block;
+  border-top: 5px solid #43e97b;
+}
+
+.card-style:hover::before {
+  content: '';
+  display: block;
+  border-top: 5px solid #ff502f;
+
+}
+
+/*
+.card-style:hover::before {
+  content: '';
+  display: block;
+  border-top: none;
+    margin-top: -5px;
+  transition: 0.3s all ease;
+}
+
+.card-style:hover::after {
+  content: '';
+  display: block;
+border-bottom: 5px solid #ff502f;
+  margin-top: 0px;
+  transition: 0.3s all ease;
+}
+*/
+
+.circle-icon {
+  background: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+  color: #fff;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  /*
+  text-align: center;
+  vertical-align: middle;
+  */
+  padding: 1.5rem;
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+.card-style:hover .circle-icon {
+  background: #ff502f;
+  transition: 0.5s all ease;
+  color: #fff;
+}
+
+.card h5 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card p {
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: 200;
+}
+
+
+#services h2.title {
+  margin-top: 30px;
+}
+
+/* Portfolio Section */
+.portfolio {
+  background-image: url(https://images.unsplash.com/photo-1448932223592-d1fc686e76ea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=749&q=80);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 220px;
+  background-position: 0px 0px;
+  padding-top: 50px;
+  position: relative;
+  z-index: 1;
+}
+
+.portfolio h2,
+.portfolio p {
+  color: #262626;
+  text-shadow: 2px 1px 5px rgba(255, 255, 255, 0.5);
+  position: relative;
+  z-index: 1;
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  font-size: 28px;
+  letter-spacing: 2px;
+
+}
+
+.portfolio p {
+  font-size: 18px;
+  font-family: 'Muli', sans-serif;
+  font-weight: lighter;
+}
+
+.portfolio::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  /*   background-image: -webkit-linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  background-image: -o-linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)); */
+  background-image: linear-gradient(to left, rgba(56, 247, 207, 0.8), rgba(67, 234, 126, 0.8));
+  bottom: 0px;
+}
+
+.portfolio-button {
+  color: #fff;
+  background-color: #ff502f;
+  position: relative;
+  z-index: 1;
+  font-size: 18px;
+  margin-top: 15px;
+  width: 100%;
+}
+
+.portfolio-button:hover {
+  color: #fff;
+  background-color: #3f3d56;
+  position: relative;
+  z-index: 1;
+}
+/**************************************************************************************
+|
+| Contact Me Section 
+|
+|**************************************************************************************
+.contact-me {
+  background-image: url(https://images.unsplash.com/photo-1448932223592-d1fc686e76ea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=749&q=80);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  background-position: 0px 60px;
+  padding-top: 50px;
+  position: relative;
+  z-index: 1;
+}
+
+.contact-me h2,
+.contact-me p {
+  color: #262626;
+  text-shadow: 2px 1px 5px rgba(255, 255, 255, 0.5);
+  position: relative;
+  z-index: 1;
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  font-size: 28px;
+  letter-spacing: 2px;
+
+}
+
+.contact-me p {
+  font-size: 18px;
+  font-family: 'Muli', sans-serif;
+  font-weight: lighter;
+}
+
+.contact-me::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: linear-gradient(to left, rgba(56, 247, 207, 0.8), rgba(67, 234, 126, 0.8));
+  bottom: 0px;
+}
+
+.contact-button {
+  color: #fff;
+  background-color: #ff502f;
+  position: relative;
+  z-index: 1;
+  font-size: 18px;
+  margin-top: 15px;
+  width: 100%;
+}
+
+.contact-button:hover {
+  color: #fff;
+  background-color: #3f3d56;
+  position: relative;
+  z-index: 1;
+} */
+
+/* Footer Section */
+section#footer {
+  height: 50px;
+  background-color: #262626;
+  color: #eaeaea;
+  font-weight: lighter;
+}
+
+.footer p {
+  margin: 10px 0;
+  padding: 5px 0;
+  font-size: 0.8rem;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+  /* Jumbotron */
+
+  .jumbotron img {
+    width: 80%;
+    margin: -40px auto 0px;
+  }
+
+
+
+}
+
+/* DESKTOP */
+@media (min-width: 992px) {
+
+  /* Sections */
+
+  h2.title {
+    font-family: 'Playfair Display', serif;
+    color: #ff502f;
+    text-transform: capitalize;
+    font-size: 48px;
+    margin: 20px;
+    line-height: 2;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  }
+
+
+  /* Utilities*/
+  .content {
+    padding-bottom: 70px;
+  }
+
+  .button {
+    border-radius: 5px;
+    padding: 3px 30px;
+    border: 2px solid #ff502f;
+    color: #ff502f;
+    margin-top: 3px;
+    font-weight: bold;
+  }
+
+  .button:hover {
+    color: #fff !important;
+    background-color: #ff502f;
+    transition: 0.3s all ease;
+  }
+
+  .button-proceed {
+    font-size: 18px;
+  }
+
+
+  /* Navbar */
+
+  .navbar-brand,
+  .nav-link {
+    color: #fff !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  }
+
+  .nav-link {
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-right: 30px;
+  }
+
+  .nav-link:hover::after {
+    content: '';
+    display: block;
+    width: 50%;
+    border-bottom: 3px solid #ff502f;
+    /*to center the hover line*/
+    margin: auto;
+    padding-bottom: 5px;
+    /* border-bottom: 2px + padding-bottom: 5px = 7px...use minus -7px */
+    margin-bottom: -7px;
+    border-radius: 3px;
+  }
+
+  /* Jumbotron */
+  .jumbotron {
+    margin-top: -75px;
+    height: 540px;
+    text-align: left;
+  }
+
+  .jumbotron .container {
+    margin-top: 90px;
+    height: 380px;
+  }
+
+  .col-lg-6 {
+    height: 380px;
+  }
+
+  .jumbotron .display-4 {
+    font-size: 60px;
+    margin-top: 10px;
+  }
+
+  /* .jumbotron img {
+    width: 130%;
+    margin-top: -210px;
+    margin-left: -30px;
+  } */
+  .jumbotron img {
+    width: 95%;
+    margin-top: 0px;
+    margin-left: 40px;
+  }
+
+  .jumbotron .lead {
+    font-size: 18px;
+  }
+
+  /* ABOUT SECTION*/
+  section#about {
+    height: 520px;
+  }
+
+  #about img {
+    width: 100%;
+    margin: -30px 0px 0 -50px;
+
+  }
+
+  /* SERVICES SECTION */
+  section#services {
+    height: 600px;
+  }
+  /* PORTFOLIO SECTION */
+  .portfolio {
+    background-image: url(https://images.unsplash.com/photo-1448932223592-d1fc686e76ea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=749&q=80);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 180px;
+    background-position: 0px -100px;
+    padding-top: 60px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .portfolio-button {
+    margin-top: 17px;
+    width: 70%;
+  }
+
+
+  /* CONTACT ME SECTION */
+  /* .contact-me {
+    background-image: url(https://images.unsplash.com/photo-1448932223592-d1fc686e76ea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=749&q=80);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    background-position: 0px -100px;
+    padding-top: 80px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .contact-button {
+    margin-top: 17px;
+    width: 70%;
+  } */
+
+  /* Footer */
+
+  /*
+  .footer .col-lg-6 {
+    height: 200px;
+    padding: 25px;
+  }
+
+  .footer ul li a {
+    color: #ff502f;
+    font-size: 1rem;
+    font-weight: normal;
+    text-decoration: none;
+    cursor: pointer;
+    padding-left: 20px;
+
+  }
+
+  .footer ul li {
+    list-style-type: none;
+    margin-top: 8px;
+  }
+
+  .footer ul li::before {
+    content: "\f101";
+    display: inline;
+    color: #ff502f;
+    font-family: "FontAwesome";
+    list-style-type: none;
+    margin-left: -30px;
+  }
+
+  .footer ul li:hover a::before {
+    content: "";
+    display: inline;
+    font-family: "FontAwesome";
+    list-style-type: none;
+    margin-left: 15px;
+  }
+
+  .footer ul li:hover a {
+    color: #fff;
+    transition: all 0.5s ease;
+  }
+
+  .footer p {
+    font-weight: lighter;
+    margin-top: 15px;
+    margin-bottom: 0;
+  }
+
+  .footer .quick-links {
+    padding: 0 100px 0;
+  }*/
+
+
+
+}
