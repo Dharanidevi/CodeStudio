@@ -1,0 +1,370 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Oxygen', sans-serif;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+
+i {
+  margin-right: 5px;
+}
+
+p {
+  color: #fff;
+}
+
+/* Containers */
+.container {
+  padding: 3% 10%;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4rem;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+.option-link {
+  color: #ffc300 !important;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.option-link:hover {
+  color: #c70039 !important;
+  font-weight: bold;
+}
+
+/* Sections */
+.white-section {
+  background-color: #fff;
+}
+
+.coloured-section {
+  background-color: #ffc300;
+}
+
+/* Heading & Texts */
+.big-heading {
+  color: #ffc300 !important;
+  font-family: 'Marck Script', cursive;
+  font-size: 3rem;
+  padding: 10% 0;
+  text-align: left;
+}
+
+.sub-heading {
+  padding: 0;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.title-heading-text {
+  margin: 5px auto 15px;
+  padding: 20px;
+  color: #ffc300 !important;
+  font-family: 'Marck Script', cursive;
+  font-size: 3.5rem;
+}
+
+.red {
+  color: #c70039 !important;
+}
+
+/* Logo */
+.logo-color {
+  color: #c70039;
+}
+
+/* Buttons */
+.click-button {
+  margin: 5% 3% 5% 0;
+  float: left;
+}
+
+.click-button:hover {
+  background-color: #c70039;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+/* Home Section*/
+.title-image {
+  position: absolute;
+  height: 100vh;
+  right: 15%;
+  top: 0%;
+}
+
+#title .container {
+  padding: 3% 5% 11%;
+}
+
+/* Services */
+#services {
+  position: relative;
+  background-color: #ffc300;
+}
+
+.services-box {
+  padding: 6% 4%;
+}
+
+.icon {
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.icon:hover {
+  color: #c70039;
+  margin-bottom: 2rem;
+}
+
+.services-title {
+  color: #262626;
+  font-weight: bold;
+}
+
+/* Promotions */
+#promotions {
+  background-color: #262626;
+}
+
+.promotion-text {
+  font-size: 1.5rem;
+  margin: 30px auto;
+  color: #fff;
+}
+
+.promotion-image {
+  width: 530px;
+  height: 380px;
+  border-radius: 15px;
+  margin: 10px 0;
+}
+
+/* Recipes */
+.recipe-title {
+  color: #fff;
+  background-color: #c70039;
+  /*  border: 2px solid #ffc300;*/
+  border-radius: 30px;
+  padding: 10px 0;
+
+}
+
+.recipe-text {
+  color: #262626;
+}
+
+/* Footer */
+.footer-heading {
+  font-family: 'Marck Script', cursive;
+  color: #fff;
+  font-size: 2.5rem;
+  position: relative;
+  top: 25%;
+}
+
+.footer-subheading {
+  font-family: 'Oxygen', sans-serif;
+  color: #262626;
+  font-size: 1.5rem;
+}
+
+.social-icon {
+  border: 1px solid #fff;
+  border-radius: 30%;
+  padding: 15px;
+  margin: 10px;
+  color: #fff;
+}
+
+.social-icon:hover {
+  border: 1px solid #ffc300;
+  /*  background-color: #fff;*/
+  background-color: #c70039;
+  color: #ffc300;
+  transition: all ease 0.5s;
+  cursor: pointer;
+}
+
+#footer p {
+  text-align: center;
+  color: #262626;
+  margin: 50px auto 0;
+}
+
+/******************** Media Query ********************/
+
+@media (max-width:991px) {
+
+  /*991px and below*/
+  .coloured-bg {
+    background-color: #262626;
+  }
+
+  .option-link {
+    color: #fff !important;
+  }
+
+  .option-link:hover {
+    background-color: #c70039 !important;
+    color: #fff !important;
+
+  }
+
+  .title-image {
+    position: absolute;
+    height: 100vh;
+    right: 0%;
+    top: 0%;
+  }
+
+}
+
+@media (max-width:767px) {
+
+  .navbar {
+    padding: 0 0 2rem;
+  }
+
+  .title-image-mobile {
+    background-color: #262626;
+    border-radius: 10px;
+    margin: -20% auto 0;
+  }
+
+
+  .big-heading {
+    color: #FFC300;
+    font-size: 2.5rem;
+    padding: 5% 0 2%;
+    text-align: center;
+  }
+
+  .sub-heading {
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  #title {
+    text-align: center;
+  }
+
+  #title .container {
+    padding: 3% 5% 5%;
+  }
+
+  .click-button {
+    justify-content: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+
+  .title-button-mobile {
+    color: #fff;
+    border: 2px solid #fff;
+    margin-top: 0px !important;
+  }
+
+  .footer-heading {
+    padding-bottom: 80px;
+  }
+
+}
+
+
+/******************** Media Query Ends ********************/
+
+
+/***********************************************************
+******************** ADMIN PANEL STARTS ********************
+***********************************************************/
+
+/* Login Page */
+.login-left,
+.login-right {
+  width: 100%;
+  height: 100vh;
+}
+
+.login-left {
+  background-color: #262626;
+  background-image: url("https://images.unsplash.com/photo-1495521821757-a1efb6729352?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=367&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.bg-color {
+  background-color: #eee;
+
+}
+
+.login-right .footer p {
+  color: #262626;
+  font-size: 0.8rem;
+  padding: 150px 0 0;
+  margin: 0;
+}
+
+/* Nav Bar*/
+.navbar-brand {
+  color: #204969 !important;
+}
+
+@media screen and (max-width:768px) {
+
+  /* Login Page */
+  /*
+  .login-left,
+  .login-right {
+    height: 100vh;
+  }
+*/
+  .login-left {
+    opacity: 0.3;
+  }
+
+
+  .container.login-right {
+    padding: 3% auto;
+    position: absolute;
+    margin-top: -480px;
+    max-width: none;
+  }
+
+  .login-right .footer p {
+    padding: 50px 0 0;
+  }
+
+}
+
+@media screen and (max-width:567px) {
+  .container.login-right {
+    padding: 9% 3%;
+  }
+
+  .login-right .footer p {
+    padding: 30px 0 0;
+  }
+}
+
+/***********************************************************
+******************** ADMIN PANEL ENDS **********************
+***********************************************************/
