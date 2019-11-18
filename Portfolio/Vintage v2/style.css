@@ -1,0 +1,138 @@
+/* green: #2edfd5 
+
+    brown : #621b19
+
+    mobiles
+*/
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Utilities */
+
+
+/* Jumbotron */
+.jumbotron{  
+  margin-bottom: 0;
+  background-color: transparent;
+}
+
+.carousel-item img{
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 40px;
+}
+/* Navbar */
+nav {
+  margin-top: 40px;
+  background-color: #fff;
+}
+
+.nav-link,
+.navbar-brand {
+    color: #621b19 !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link, .contactButton {
+    font-weight: normal;
+    text-transform: capitalize;
+    margin-right: 30px;
+    text-align: center;
+}
+
+.nav-link:hover{
+  background-color: #2edfd5;
+}
+
+.contactButton{
+  color: #2edfd5;
+  padding: 5px 20px;
+  display: block;
+  font-weight: 700;
+}
+
+/* Navbar Banner */
+.banner {
+    background-color: #262626;
+    height: 40px;
+    position: fixed;
+    top: 0px;
+}
+.banner p{
+  padding-top: 3px;
+  font-size:0.75rem;
+}
+.banner p span{
+  color: #2edfd5;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+/*======================================
+
+  Large devices (desktops, 992px and up) 
+
+=========================================*/
+@media (min-width: 992px) {
+   
+    
+    .carousel-inner{
+      height: 570px;
+      overflow: hidden;
+    }
+    .carousel-item img{
+      background-position: top center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-top: 0;
+    }
+    /* Navbar */
+    nav {
+      margin-top: 0;
+        background-color: #fff;
+    }
+
+    .nav-link:hover{
+      background-color: transparent;
+    }
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        width: 50%;
+        border-bottom: 3px solid #621b19;
+        /*to center the hover line*/
+        margin: auto;
+        padding-bottom: 3px;
+        /* border-bottom: 3px + padding-bottom: 3x = 6px...use minus -6px */
+        margin-bottom: -6px;
+        border-radius: 3px;
+        transition: 0.3s all ease;
+    }
+
+    .contactButton{
+      border:2px solid #2edfd5;
+      color: #262626;
+      border-radius: 20px;
+      padding: 5px 20px;
+      display: block;
+    }
+
+    /* Navbar Banner */
+    .banner {
+        background-color: #262626;
+        height: 40px;
+        margin-top: 55px;
+    }
+    .banner p{
+      font-size:1rem;
+    }
+  
+}
