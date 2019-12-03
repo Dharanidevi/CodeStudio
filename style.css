@@ -246,7 +246,7 @@ body{
 
 /* Contact Section */
 
-.jumbotron.jumbotron-fluid.small{
+.container-fluid.small{
   background: url(https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=80);
   background-attachment: fixed;
   background-size:cover;
@@ -254,7 +254,7 @@ body{
   height: 30%;
 }
 
-.small{
+.container-fluid.small{
   background-repeat:no-repeat;
   /* height: 300px; */
   position: relative;
@@ -262,7 +262,7 @@ body{
   padding-bottom: 30px;
 }
 
-.jumbotron.jumbotron-fluid.small::after{
+.container-fluid.small::after{
   content:'';
   display: block;
   background-color:rgba(38, 38, 38, 0.85);
@@ -274,15 +274,15 @@ body{
   z-index:0;
 }
 
-.small h4{
+.container-fluid.small h4{
   text-shadow: 2px 1px 3px rgba(0, 0, 0, 0.4);
   letter-spacing: 1px;
   word-spacing: 2px;
   /* font-size: 28px; */
 }
 
-.small h4,
-.small a{
+.container-fluid.small h4,
+.container-fluid.small a{
   position: relative;
   z-index: 1;
   font-weight: 700;
