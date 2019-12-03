@@ -346,7 +346,13 @@ hr{
    /* text-shadow: 1px 1px 3px black; */
    padding-bottom: 1.6rem;
  }
- 
+
+ .narrow {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 3rem;
+  }
+
  .btn-lg{
    border-width: medium;
    border-radius: 0px;
