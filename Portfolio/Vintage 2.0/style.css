@@ -113,11 +113,11 @@ body{
    .carousel-caption h1{
      font-size: 1.7rem;
      font-weight: 700;
+     line-height: 1.3;
      /* text-shadow: 0.1rem 0.1rem 0.8rem black; */
      text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
      padding-bottom: 1rem;
-     color:blue;
-     /* color: #672727; */
+     color: #672727;
 
    }
   
@@ -150,7 +150,7 @@ body{
 
   .container.glass{
     background-color: rgba(255, 255, 255, 0.55);
-    margin-top: 35px;
+    margin-top: 27px;
   }
 
   .carousel-control-next, .carousel-control-prev{
@@ -159,7 +159,7 @@ body{
 
   /*== Our Story ==*/
   .narrow {
-    width: 75%;
+    width: 90%;
     margin: 0 auto;
     padding-top: 3rem;
   }
@@ -169,7 +169,7 @@ body{
     font-weight: 700;
     text-transform: uppercase;
     padding-bottom: 1.9rem;
-    line-height: 2;;
+    line-height: 2;
   }
   
   h3.heading::after{
@@ -186,7 +186,7 @@ body{
   p.lead{
     text-align: left;
     font-weight: normal;
-    font-size: 0.9rem;
+    font-size: 1rem;
     line-height: 1.7;
   }
 
