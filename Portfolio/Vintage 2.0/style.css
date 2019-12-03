@@ -1,0 +1,389 @@
+/* PEXELS
+https://www.pexels.com/photo/interior-design-of-home-1643383/
+https://www.pexels.com/photo/white-wooden-cabinet-2747901/
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700,900&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+    overflow-x:hidden; /*to make sure all our content stays within our browser window */
+    /* overflow-y: scroll; */
+    /* font-family: 'Sulphur Point', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+    color: #505962;
+    background-color: #f0e9e9;
+
+  }
+  
+  .light-bg{
+    /* Milk Color*/
+    /* background-color: #FAF8F0; */
+    background-color: #f0e9e9;
+  }
+  .secondary-bg{
+    background-color: #52cead !important;
+    font-weight: 700;
+  }
+
+  .btn-primary{
+    background: #fafafa !important;
+    color: #505962 !important;
+    /* color: #52cead !important; */
+    /* text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7); */
+    border: 2px solid rgba(0, 0, 0, 0.1) !important;
+    border-radius: 3px !important;
+  }
+
+  .btn-secondary{
+    background: #52cead !important;
+    border: 2px solid #52cead !important;
+  }
+
+  .offset:before{  /* to set the correct start point of the div when you select a nav-link in the navbar(selecting page to visit)*/
+    height:6rem;
+    margin-top: -6rem;
+    /* height:3.8rem;
+    margin-top: -3.8rem; */
+    content: "";
+    display: block;
+  }
+  
+  /*== Navbar==*/
+  
+  .navbar{
+    text-transform:uppercase;
+    font-weight: 700;
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;
+    background: rgba(38, 38, 38, 0.85) !important;
+    /* background: rgba(0, 0, 0, 0.6) !important; */
+    top:40px;
+  }
+  
+  .navbar-brand img{
+     height: 2rem;
+  }
+  
+  .navbar-nav li{
+    padding-right: 0.7rem;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link{
+    color: #fff;
+    padding-top:0.8rem;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link.active,
+  .navbar-dark .navbar-nav .nav-link:hover{
+    color:#f7ca44;
+   }
+  
+/* Navbar Banner */
+  .banner {
+    background-color: #262626;
+    height: 40px;
+    position: fixed;
+    top: 0px;
+  }
+  .banner p {
+    padding-top: 3px;
+    font-size: 0.75rem;
+  }
+  .banner p span,
+  .small span {
+    color: #f7ca44;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  /*== Slider ==*/
+   .carousel-item{
+     height: 100vh;
+   }
+  
+   .carousel-caption{
+     position: absolute;
+     top:10%;
+     /* top:38%; */
+     text-transform: uppercase;
+     width: 100%;
+     right: 0;
+     left: 0;
+   }
+
+   .carousel-caption h1{
+     font-size: 2rem;
+     font-weight: 700;
+     letter-spacing: 0.25rem;
+     /* text-shadow: 0.1rem 0.1rem 0.8rem black; */
+     text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+     padding-bottom: 1rem;
+     color: #672727;
+
+   }
+  
+   .carousel-caption h3{
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #262626;
+    /* text-shadow: 0.1rem 0.1rem 0.5rem black; */
+    padding-bottom: 1.6rem;
+  }
+  
+  .btn-lg{
+    border-width: medium;
+    border-radius: 0px;
+    font-size: 0.9rem;
+  }
+
+  .btn-outline-light{
+    background-color: #f7ca44 !important;
+    color: #262626 !important;
+    border: 2px solid #262626 !important;
+  }
+
+  .btn-outline-light:hover{
+    background-color: #262626 !important;
+    color: #f7ca44 !important;
+    border: 2px solid #f7ca44 !important;
+    transition: all 650ms ease;
+  }
+
+  .container.glass{
+    background-color: rgba(255, 255, 255, 0.55);
+    margin-top: 35px;
+  }
+
+  .carousel-control-next, .carousel-control-prev{
+    z-index: 999 !important;
+  }
+
+  /*== Our Story ==*/
+  .narrow {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 3rem;
+  }
+
+  h3.heading{
+    font-size: 1.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 1.9rem;
+    line-height: 2;;
+  }
+  
+  h3.heading::after{
+    content: '';
+    display: block;
+    width: 3rem;
+    height: 0.3rem;
+    background-color: #f7ca44;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    margin: 0 auto 2rem;
+    /* background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%); */
+  }
+
+  p.lead{
+    text-align: justify;
+    font-weight: normal;
+    font-size: 1.2rem;
+    line-height: 1.7;
+  }
+
+  /* Card Section */
+
+  .card-body p, 
+  .card-body ul li{
+    letter-spacing: 1px;
+    font-size: 1rem !important;
+    text-align: center !important;
+  }
+
+  .ourStory .card-header{
+    background-color:#672f2f !important;
+    color: #eeeeee;
+  }
+
+  .card-header{
+    font-weight: 700;
+    font-size: 1.4rem;
+    background-color:transparent !important;
+    letter-spacing: 1px;
+    border-bottom: none;
+  }
+
+/* Our Forte */
+.title{
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: #eeeeee;
+  background-color:#672727 !important;
+  text-align: center;
+  font-weight: 600;
+}
+
+/* Gallery */
+
+#projectGallery .container{
+  background: #262626;
+}
+
+.gallery{
+  overflow: hidden;
+}
+
+.gallery img{
+  transition: all 0.9s ease;
+/*   box-shadow: 5px 5px 3px rgba(255, 255, 255, 0.1); */
+}
+
+.gallery:hover img{
+  transform: scale(1.4);
+  cursor: zoom-in;
+}
+
+
+/* Contact Section */
+
+.small{
+  background: url(https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=80);
+  background-attachment: fixed;
+  background-size:cover;
+  background-position: 0px -30px;
+  background-repeat:no-repeat;
+  height: 300px;
+  position: relative;
+}
+
+.small::after{
+  content:'';
+  display: block;
+  background-color:rgba(38, 38, 38, 0.85);
+  /* background-image: rgba(30, 187,163,0.5); */
+  width:100%;
+  height:100%;
+  position: absolute;
+  bottom:0;
+  z-index:0;
+}
+
+.small h2{
+  text-shadow: 2px 1px 3px rgba(0, 0, 0, 0.4);
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  font-size: 28px;
+}
+
+.small h2,
+.small a{
+  position: relative;
+  z-index: 1;
+  font-weight: 700;
+}
+
+.small span{
+  font-size: 40px;
+}
+
+
+/* Footer */
+footer{
+  text-align: center;
+}
+
+footer img{
+  height: 200px;
+  width: 200px;
+}
+
+.bold-text{
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+footer .social_media svg.svg-inline--fa{
+  font-size: 2rem;
+  color:#f7ca44;
+  text-align: center;
+
+}
+
+footer .social_media svg.svg-inline--fa:hover {
+  color: #262626;
+  transform: scale(1.35);
+  transition: all 0.6s ease;
+}
+
+hr{
+  /* border-top: 0.2rem solid #666b71; */
+  border-top: 1px solid rgba(0, 0, 0, 0.4);
+  width: 100%;
+}
+/********************************  RESPONSIVE **********************************************/
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+  .carousel-caption h1{
+    font-size: 2.2rem;
+    /* font-weight: 700; */
+    letter-spacing: 0.2rem;
+    /* text-shadow: 1px 1px 3px black; */
+    /* padding-bottom: 1rem; */
+  }
+ 
+  .carousel-caption h3{
+   font-size: 1.5rem;
+   /* text-shadow: 1px 1px 3px black; */
+   padding-bottom: 1.6rem;
+ }
+ 
+ .btn-lg{
+   border-width: medium;
+   border-radius: 0px;
+   font-size: 1rem;
+ }
+
+}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  
+   /* Navbar */
+
+   .navbar{
+     top:0px;
+   }
+
+  /* Navbar Banner */
+  .banner {
+    background-color: #262626;
+    height: 40px;
+    margin-top: 60px;
+  }
+  .banner p {
+      font-size: 1rem;
+  }
+
+  /* Contact */
+  .small h2{
+    text-shadow: 2px 1px 3px rgba(0, 0, 0, 0.4);
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-size: 40px;
+  }
+
+  .small span{
+    font-size: 50px;
+  }
+
+ 
+ }
+
+
+
