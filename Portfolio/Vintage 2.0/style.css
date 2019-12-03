@@ -252,7 +252,7 @@ body{
   background-size:cover;
   background-position: 0px 90px;
   background-repeat:no-repeat;
-  height: 300px;
+  height: 500px;
   position: relative;
 }
 
@@ -272,7 +272,7 @@ body{
   text-shadow: 2px 1px 3px rgba(0, 0, 0, 0.4);
   letter-spacing: 1px;
   word-spacing: 2px;
-  font-size: 28px;
+  font-size: 25px;
 }
 
 .small h2,
@@ -283,7 +283,7 @@ body{
 }
 
 .small span{
-  font-size: 40px;
+  font-size: 35px;
 }
 
 
