@@ -186,7 +186,7 @@ body{
   p.lead{
     text-align: left;
     font-weight: normal;
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 1.7;
   }
 
@@ -252,10 +252,10 @@ body{
   background-size:cover;
   background-position: 0px 90px;
   height: 30%;
+  background-repeat:no-repeat;
 }
 
-.small{
-  background-repeat:no-repeat;
+.jumbotron.jumbotron-fluid.small{
   /* height: 300px; */
   position: relative;
   margin: 50px 0;
