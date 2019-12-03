@@ -2,224 +2,462 @@
 <html lang="en">
 
 <head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Muli|Playfair+Display&display=swap" rel="stylesheet">
-  <!-- Customized CSS -->
-  <link rel="stylesheet" href="style.css">
+    <!-- Customized CSS -->
+    <link rel="stylesheet" href="style.css">
 
-  <!-- FontAwesome -->
-  <script src="https://kit.fontawesome.com/121772266e.js" crossorigin="anonymous"></script>
-  <link rel="icon" href="images/favicon.ico">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-  <title>Code Studio</title>
-  
+    <!-- Fixed CSS -->
+    <link rel="stylesheet" href="fixed.css">
+
+    <title>Vintage 2.0</title>
 </head>
 
-<body>
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light">
-    <div class="container">
-      <a class="navbar-brand" href="#">Code Studio</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#home">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#services">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="btn button" href="portfolio.html"><i class="fas fa-heart"></i> Portfolio</a>
-          </li>
-          <!-- <li class="nav-item">
-            <a class="btn button" href="../CodeStudio/RecipeBox/index.html"><i class="fas fa-heart"></i> Portfolio</a>
-          </li> -->
-          <!-- <li class="nav-item">
-            <a class="btn button" href="#contact"><i class="far fa-envelope"></i>Contact</a>
-          </li> -->
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!-- Navbar Ends-->
+<body data-spy="scroll" data-target="#navbarResponsive">
 
-  <!-- Jumbotron -->
-  <div class="jumbotron jumbotron-fluid">
-    <div class="container">
-      <div class="row" id="">
-        <div class="col-lg-6 d-lg-none">
-          <img src="image/main_img.png" class="" alt="">
-        </div>
-        <div class="col-lg-6">
-          <h1 class="display-4">Clean & Sleek Websites</h1>
-          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, nihil.</p>
-          <a href="#about" class="btn btn-lg button-proceed shadow pl-4 pr-3">Learn More<i class="fas fa-angle-right ml-3"></i></a>
-        </div>
-        <div class="col-lg-6 d-none d-lg-block">
-          <img src="image/lead_image.png" class="" alt="">
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Jumbotron Ends -->
+    <!-- Start Home Section -->
+    <div id="home">
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <a href="index.html" class="navbar-brand ml-3"><img src="" alt="">Vintage 2.0</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-
-  <!-- About Section -->
-
-  <section id="about">
-    <!-- Container -->
-    <div class="container">
-      <div class="row justify-content-center">
-        <h2 class="title">About</h2>
-      </div>
-
-      <div class="row content">
-        <div class="col-lg-6">
-          <img src="image/about.png" alt="">
-        </div>
-        <div class="col-lg-6">
-          <h4>Bringing your ideas to reality</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita vel dolorum id libero fugit doloribus placeat quo deserunt modi harum.</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- Container Ends -->
-  </section>
-  <!-- About Section Ends -->
-
-  <!-- Services Section -->
-
-  <section id="services">
-    <!-- Container -->
-    <div class="container">
-      <div class="row justify-content-center">
-        <h2 class="title">Services</h2>
-      </div>
-
-      <div class="row content justify-content-center">
-        <div class="col-lg card-deck d-flex justify-content-center">
-          <div class="card card-style shadow mb-4">
-            <div class="card-body">
-              <i class="fas fa-lightbulb circle-icon"></i>
-              <h5 class="card-title">Create Great Ideas</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, quas, alias.</p>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#ourStory" class="nav-link">Our Story</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#ourForte" class="nav-link">Our Forte</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projectGallery" class="nav-link">Project Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="btn btn-outline-light btn-lg">Contact</a>
+                    </li>
+                </ul>
             </div>
-          </div>
+        </nav>
+
+        <!-- Navigation Ends -->
+        <!-- Site Visit Banner -->
+        <div class="banner fixed-top pt-2">
+            <p class="text-white text-center ">Contact us now for
+                <span>free</span>
+                consultation!</p>
         </div>
-        <div class="col-lg card-deck d-flex justify-content-center">
-          <div class="card card-style shadow mb-4">
-            <div class="card-body">
-              <i class="fas fa-heart circle-icon"></i>
-              <h5 class="card-title">Customized Designs</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur consequatur similique, doloremque veniam, repellendus in.</p>
+        <!-- Site Visit Banner -->
+
+        <!-- Start Image Slider -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="15000">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <!-- Slide 1 -->
+
+                <div class="carousel-item active mt-0" style="background-image: url(img/1.jpg);">
+                    <div class="carousel-caption text-center d-flex align-items-center">
+                        <div class="container glass py-4 w-75 rounded">
+                            <h1>Ceiling and Interior<br>
+                                Renovation Specialist</h1>
+                            <h3>Serviced Residence / Apartments / Condominium</h3>
+                            <a href="#ourStory" class="btn btn-outline-light btn-lg">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="carousel-item" style="background-image: url(img/2.jpg);">
+                    <div class="carousel-caption text-center d-flex align-items-center">
+                        <div class="container glass py-4 w-75 rounded">
+                            <h1>Ceiling and Interior<br>
+                                Renovation Specialist</h1>
+                            <h3>Shoplots / Corporate Buildings</h3>
+                            <a href="#ourStory" class="btn btn-outline-light btn-lg">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="carousel-item" style="background-image: url(img/3.jpg);">
+                    <div class="carousel-caption text-center d-flex align-items-center">
+                        <div class="container glass py-4 w-75 rounded">
+                            <h1>Ceiling and Interior<br>
+                                Renovation Specialist</h1>
+                            <h3>Shoplots / Corporate Buildings</h3>
+                            <a href="#ourStory" class="btn btn-outline-light btn-lg">Get Started</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-        <div class="col-lg card-deck d-flex justify-content-center">
-          <div class="card card-style shadow mb-4">
-            <div class="card-body">
-              <i class="fas fa-mobile-alt circle-icon"></i>
-              <h5 class="card-title">Responsive Designs</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, ipsa.</p>
+        <!-- Prev and Next Button on Slider -->
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+        <!-- End Prev and Next Button on Slider -->
+    </div>
+    <!-- End Image Slider -->
+    </div>
+    <!-- End Home Section -->
+
+    <!-- Our Story -->
+    <div id="ourStory" class="offset">
+        <div class="narrow w-75 mb-5">
+            <div class="col text-center">
+                <h3 class="heading">Our Story</h3>
+                <p class="lead">
+                    VintageHauz Home Décor is a ceiling and interior renovation specialist assisting
+                    its clients to craft an affordable yet luxury interiors for their residential
+                    and commercial properties. It specializes in plaster ceiling, wood panel
+                    ceiling, moisture resistance ceiling, designer plaster ceiling, aluminum & strip
+                    ceiling, electrical & wiring works, ceiling down lights, ceiling and wall
+                    decorative interior and exterior lights, ceiling track lights, ceiling
+                    directional lights, interior and exterior seamless ambiance painting and etc. We
+                    do offer free interior design consultation and advice to our clients on
+                    coordination of mechanical and electrical services such as air conditioning,
+                    mechanical ventilation and plumbing.</p>
+                <p class="lead">
+                    We guarantee our workmanship in crafting your dream project since our team
+                    possess extensive expertise for more than 5 years in this field. In addition to
+                    that, we only commit to use accredited construction materials & products by the
+                    relevant authority bodies such as Sirim, Bomba, CIDB, Singapore Green Label,
+                    American Society of Testing & Materials, European & British Standards.
+                    VintageHauz Home Décor closely liaise with its clients to capture the taste and
+                    customer preference, then indulge in crafting their affordable luxury dream
+                    interiors in a more valuable way. We strictly commit to the construction
+                    timeline as agreed and fulfill customer’s reasonable expectations. We cover
+                    projects in entire Selangor, WP Kuala Lumpur, Putrajaya and Negeri Sembilan for
+                    the ease of our customers.
+                </p>
             </div>
-          </div>
         </div>
-      </div>
+        <!-- Start Our Story Card Section -->
+
+        <div class="container ourStory">
+            <div class="row justify-content-center">
+                <div class="col-12 card-deck">
+                    <div class="card shadow mb-3" data-aos="fade-down">
+                        <div class="card-header secondary-bg text-center">Vision</div>
+                        <div class="card-body">
+                            <p class="card-text py-3">To be the leading ceiling and interior renovation firm in the town
+                                which crafts
+                                affordable luxury
+                                interiors for both
+                                residential and commercial properties
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 card-deck">
+                    <div class="card shadow mb-3" data-aos="fade-down">
+                        <div class="card-header secondary-bg text-center">Mission</div>
+                        <div class="card-body">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Affordable luxury ceiling & interior solutions</li>
+                                <li class="list-group-item">99% Design to reality conversion rate</li>
+                                <li class="list-group-item">Design & construction optimization</li>
+                                <li class="list-group-item">Environmental friendly & GREEN products utilization</li>
+                                <li class="list-group-item">Timely delivery</li>
+                                <li class="list-group-item">Reliability</li>
+                                <li class="list-group-item">Progressive payment facility</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 card-deck">
+                    <div class="card shadow mb-3" data-aos="fade-down">
+                        <div class="card-header secondary-bg text-center">Core Values</div>
+                        <div class="card-body">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Commit to meet reasonable customers whims at all times</li>
+                                <li class="list-group-item">Friendliness, reliability & integrity in all business
+                                    dealings</li>
+                                <li class="list-group-item">Creating a politics free, stress free and happy working
+                                    environment and culture in our organization for our team</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Our Story Card Section -->
     </div>
+    <!-- End Our Story -->
 
-    <!-- Container Ends -->
-  </section>
-  <!-- Services Section Ends -->
-
-  <!-- Portfolio Section -->
-  <!-- Container -->
-  <section id="portfolio" class="portfolio">  
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-8 text-center small">
-          <h2>Visit My Work</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+    <!-- Our Forte -->
+    <section id="ourForte" class="offset">
+        <div class="narrow w-75 mb-5">
+            <div class="col text-center">
+                <h3 class="heading">Our Forte</h3>
+                <p class="lead text-center">
+                    We specialize in ceiling works, electrical and wiring, lighting and fixtures and other interior
+                    renovation works focusing both residential and commercial properties.</p>
+            </div>
         </div>
-        <div class="col-lg-4 text-center">
-          <button href="../CodeStudio/RecipeBox/index.html" class="btn btn-lg shadow portfolio-button px-4"><i class="fas fa-heart"></i> View Portfolio</button>
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6 card-deck">
+                    <div class="card shadow">
+                        <img src="img/ceiling-works.jpg" class="card-img-top img-fluid" alt="...">
+                        <div class="card-header pt-4 pb-0">
+                            <h5 class="title py-3 rounded">Ceiling works</h5>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Flat Plaster Ceiling</li>
+                                <li class="list-group-item">Moisture Resistance Ceiling</li>
+                                <li class="list-group-item">Plaster Ceiling Designs</li>
+                                <li class="list-group-item">Light Box Design</li>
+                                <li class="list-group-item">Island Design </li>
+                                <li class="list-group-item">Wood Panel Ceiling </li>
+                                <li class="list-group-item">Curtain Box </li>
+                                <li class="list-group-item">Tray Ceiling </li>
+                                <li class="list-group-item">Drop Ceiling </li>
+                                <li class="list-group-item">Ceiling Roses </li>
+                                <li class="list-group-item">Ceiling Domes </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 card-deck">
+                    <div class="card shadow">
+                        <img src="img/ligthing-fixtures.jpg" class="card-img-top img-fluid" alt="...">
+                        <div class="card-header pt-4 pb-0">
+                            <h5 class="title py-3 rounded">lighting &amp; fixtures</h5>
+                        </div>
+
+                        <div class="card-body">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Ceiling Downlights</li>
+                                <li class="list-group-item">Ceiling Design Lights</li>
+                                <li class="list-group-item">Pendant Lights (Single/Multiple)</li>
+                                <li class="list-group-item">Chandelier</li>
+                                <li class="list-group-item">Spot Lights</li>
+                                <li class="list-group-item">Track Lights</li>
+                                <li class="list-group-item">Eyeball/Directional Lights</li>
+                                <li class="list-group-item">Adjustable Reel Lights</li>
+                                <li class="list-group-item">Wall Lights</li>
+                                <li class="list-group-item">Step Lights</li>
+                                <li class="list-group-item">Fan</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 card-deck">
+                    <div class="card shadow">
+                        <img src="img/wiring.jpg" class="card-img-top img-fluid" alt="...">
+                        <div class="card-header pt-4 pb-0">
+                            <h5 class="title py-3 rounded">electrical &amp; wiring works</h5>
+                        </div>
+
+                        <div class="card-body">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Lighting Points</li>
+                                <li class="list-group-item">Socket Power Points</li>
+                                <li class="list-group-item">A/C Points</li>
+                                <li class="list-group-item">Water Heater Points</li>
+                                <li class="list-group-item">Ceiling Fan Points</li>
+                                <li class="list-group-item">DB Upgrading</li>
+                                <li class="list-group-item">Others</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 card-deck">
+                    <div class="card shadow">
+                        <img src="img/other-works.jpg" class="card-img-top img-fluid" alt="...">
+                        <div class="card-header pt-4 pb-0">
+                            <h5 class="title py-3 rounded">Other works</h5>
+                        </div>
+
+                        <div class="card-body">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Interior & Exterior Painting</li>
+                                <li class="list-group-item">Kitchen Renovation & Extension</li>
+                                <li class="list-group-item">Tiling & Other Masonry Works</li>
+                                <li class="list-group-item">Anti-Termite (Drilling & Spot Spraying)</li>
+                                <li class="list-group-item">Partition</li>
+                                <li class="list-group-item">Wall Decoration</li>
+                                <li class="list-group-item">Air-Conditioning & Plumbing Coordination</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </section>
-  <!-- Container Ends -->
-  <!-- Portfolio Section Ends-->
+    </section>
+    <!-- Our Forte Ends -->
 
-<!-- Contact Section -->
-  <!-- Container -->
-  <!-- <section id="contact" class="contact-me">  //contactme section for the future
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-8 text-center small">
-          <h2>Need a website for your business?</h2>
-          <p>Just Drop Me A Message</p>
+    <!-- Project Gallery -->
+    <section id="projectGallery" class="offset projectGallery">
+        <div class="narrow w-75 mb-5">
+            <div class="col text-center">
+                <h3 class="heading">Project Gallery</h3>
+                <p class="lead text-center">Check out our previous projects.</p>
+            </div>
         </div>
-        <div class="col-lg-4 text-center">
-          <button class="btn btn-lg shadow contact-button px-4">Get In Touch</button>
+
+        <div class="container rounded">
+            <div class="row text-center text-lg-left">
+
+                <div class="col-md-4 col-xs-6 gallery">
+                    <a href="img/gallery/1.jpg" class="d-block mb-3 h-100" target="_blank">
+                        <img src="img/gallery/1.jpg" alt="" class="img-fluid img-thumbnail" data-aos="zoom-in-up">
+                    </a>
+                </div>
+
+
+                <div class="col-md-4 col-xs-6 gallery">
+                    <a href="img/gallery/2.jpg" class="d-block mb-3 h-100" target="_blank">
+                        <img src="img/gallery/2.jpg" alt="" class="img-fluid img-thumbnail" data-aos="zoom-in-up">
+                    </a>
+                </div>
+
+
+                <div class="col-md-4 col-xs-6 gallery">
+                    <a href="img/gallery/3.jpg" class="d-block mb-3 h-100" target="_blank">
+                        <img src="img/gallery/3.jpg" alt="" class="img-fluid img-thumbnail" data-aos="zoom-in-up">
+                    </a>
+                </div>
+
+
+                <div class="col-md-4 col-xs-6 gallery">
+                    <a href="img/gallery/4.jpg" class="d-block mb-3 h-100" target="_blank">
+                        <img src="img/gallery/4.jpg" alt="" class="img-fluid img-thumbnail" data-aos="zoom-in-up">
+                    </a>
+                </div>
+
+
+                <div class="col-md-4 col-xs-6 gallery">
+                    <a href="img/gallery/5.jpg" class="d-block mb-3 h-100" target="_blank">
+                        <img src="img/gallery/5.jpg" alt="" class="img-fluid img-thumbnail" data-aos="zoom-in-up">
+                    </a>
+                </div>
+
+                <div class="col-md-4 col-xs-6 gallery">
+                    <a href="img/gallery/6.jpg" class="d-block mb-3 h-100" target="_blank">
+                        <img src="img/gallery/6.jpg" alt="" class="img-fluid img-thumbnail" data-aos="zoom-in-up">
+                    </a>
+                </div>
+
+                <div class=" col-md-4 col-xs-6 gallery">
+                    <a href="img/gallery/7.jpg" class="d-block mb-3 h-100" target="_blank">
+                        <img src="img/gallery/7.jpg" alt="" class="img-fluid img-thumbnail" data-aos="zoom-in-up">
+                    </a>
+                </div>
+
+
+                <div class="col-md-4 col-xs-6 gallery">
+                    <a href="img/gallery/8.jpg" class="d-block mb-3 h-100" target="_blank">
+                        <img src="img/gallery/8.jpg" alt="" class="img-fluid img-thumbnail" data-aos="zoom-in-up">
+                    </a>
+                </div>
+
+                <div class="col-md-4 col-xs-6 gallery">
+                    <a href="img/gallery/9.jpg" class="d-block mb-3 h-100" target="_blank">
+                        <img src="img/gallery/9.jpg" alt="" class="img-fluid img-thumbnail" data-aos="zoom-in-up">
+                    </a>
+                </div>
+            </div>
+    </section>
+    <!-- Project Gallery Ends -->
+
+    <!-- Contact -->
+    <section id="#contact">
+        <!-- <div class="narrow w-75 mb-5">
+            <div class="col text-center">
+                <h3 class="heading">Contact</h3>
+            </div>
+        </div> -->
+
+        <div class="jumbotron jumbotron-fluid small">
+            <div class="container d-flex align-items-center justify-content-center">
+                <div class="row text-center">
+                    <div class="col">
+                        <h4 class="text-white">Contact us for <span>free</span> site visit & quotation</h4>
+                        <a href="contact.html" class="btn btn-outline-light btn-lg mt-3 shadow">Contact us now! <i
+                                class="fas fa-envelope ml-3 p-0"></i></a>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </section> -->
-  <!-- Container Ends -->
-  <!-- Contact Section Ends-->
+    </section>
+    <!-- Contact Ends -->
 
-
-  <!-- Footer -->
-  <!-- Container -->
-  <section id="footer" class="footer">
-    <div class="container">
-      <!--<div class="row justify-content-center">
-        <div class="col-lg-6 text-center">
-          <div class="footer-logo">
-            <h3 class="mt-5">Code Studio</h3>
-          </div>
+    <footer>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-3 d-flex align-items-center justify-content-center">
+                    <img src="img/logo.png" alt="">
+                </div>
+                <div class="col-lg-4">
+                    <p class="bold-text">working hours:</p>
+                    <p>We are always open!</p>
+                    <br>
+                    <p class="bold-text">location:</p>
+                    <address>
+                        No. 5, Lorong Serampang 3,<br>
+                        Di Jalan Teluk Pulai,<br>
+                        41100 Klang,<br>
+                        Selangor Darul Ehsan
+                    </address>
+                </div>
+                <div class="col-lg-3 social_media">
+                    <p class="bold-text">Follow us on:</p>
+                    <a href="" target="_blank"><i class="fab fa-facebook-square mr-3 shad"></i></a>
+                    <a href="" target="_blank"><i class="fab fa-twitter-square mr-3 shad"></i></a>
+                    <a href="" target="_blank"><i class="fab fa-instagram shad"></i></a>
+                </div>
+            </div>
         </div>
-        <div class="col-lg-4 pl-5">
-          <h5 class="py-4">Quick Links</h5>
-          <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-      </div -->
-      <div class="row">
-        <div class="col d-flex justify-content-center">
-          <p>All CopyRights Reserved By Code Studio</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- Container Ends -->
-  <!-- Footer Ends -->
+        <hr>
+        <p class="text-center">Designed with <i class="fas fa-hand-holding-heart mx-2"></i> by Code Studio</p>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
 
-
-
-
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js" type="text/javascript"></script>
 </body>
 
 </html>
