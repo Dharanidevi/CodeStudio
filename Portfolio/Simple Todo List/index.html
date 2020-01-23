@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Todo List</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+ 
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Caveat|Raleway:400,700,900&display=swap" rel="stylesheet">
+    <!-- Customized CSS -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+
+    <!-- Title -->
+    <div class="title-section text-center">
+        <div class="container">
+            <h2 class="display-3 my-4 lead">Let's get this done!</h2>
+            <!-- <div class="progress-box completed-status mx-auto">
+                <p class="text-center py-3"><span>100%</span> Task Completed!</p>
+            </div> -->
+            <p class="numberOfTask">You have <span>4 tasks</span> for today</p>
+        </div>
+    </div>
+    <!-- Title Ends -->
+
+    <!-- Search and Progress -->
+    <div class="action-section">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-6">
+                    <form class="search">
+                      <input class="form-control mb-3 col-10" type="text" name="search" placeholder="Search Task" />
+                    </form>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- Search and Progress Ends -->
+
+    <!-- Tasks List -->
+    <div class="task-section">
+        <div class="container mx-auto mb-4">
+            <div class="row justify-content-center">
+                <div class="col-12 mt-1">
+                    <ul class="task-box px-4">
+                        <li class="task-list py-2 my-3 d-flex justify-content-between px-4 py-3">
+                            <span>Science Lab Report</span>
+                            <i class="fas fa-trash-alt delete"></i>
+                        </li>
+
+                        <li class="task-list py-2 my-3 d-flex justify-content-between px-4 py-3">
+                            <span>Assignment</span>
+                            <i class="fas fa-trash-alt delete"></i>
+                        </li>
+
+                        <!-- <li class="task-list py-2 my-3 d-flex justify-content-between px-4 py-3">
+                            <span>Something to do</span>
+                            <i class="fas fa-trash-alt delete"></i>
+                        </li>
+
+                        <li class="task-list py-2 my-3 d-flex justify-content-between px-4 py-3">
+                            <span>Something to do</span>
+                            <i class="fas fa-trash-alt delete"></i> -->
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-12 ">
+                     <form class="addTask px-3 m-3">
+                         <input class="form-control" type="text" name="addTask" placeholder="Add Task">
+                     </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Tasks List Ends -->
+
+
+      
+    <!-- Optional JavaScript -->
+    
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
