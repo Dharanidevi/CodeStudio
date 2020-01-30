@@ -65,7 +65,7 @@ h1{
     font-size: 1rem;
     padding: 10%;
     margin: 10% 2px;
-    color: #ffbaba;
+    color: #ec7373;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.10);
 }
 
@@ -87,7 +87,7 @@ h1{
 }
 
 .dates span{
-    color: #ffbaba;
+    color: #ec7373;
     font-weight: bold;
     margin-right: 2px;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.10);
