@@ -30,7 +30,7 @@ const tick = () => {
 
     //display date
     const day = dateFns.format(now, 'dddd');
-    const date = dateFns.format(now, 'do');
+    const date = dateFns.format(now, 'Do');
     const month = dateFns.format(now, 'MMMM');
     const year = dateFns.format(now, 'YYYY');
 
