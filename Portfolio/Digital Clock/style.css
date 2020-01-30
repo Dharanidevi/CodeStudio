@@ -24,8 +24,8 @@ h1{
 }
 
 .clock {
-    max-width: 400px;
-    max-height: 180px;
+    max-width: 300px;
+    max-height: 150px;
     /* height: 28%;
     width: 85%; */
     box-shadow: -7px -7px 17px rgba(255, 255, 255, 0.6),
@@ -65,7 +65,7 @@ h1{
     font-size: 1rem;
     padding: 8%;
     margin: 10% 2px;
-    color: #fb929e;
+    color: #ffbaba;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.10);
 }
 
@@ -87,7 +87,7 @@ h1{
 }
 
 .dates span{
-    color: #fb929e;
+    color: #ffbaba;
     font-weight: bold;
     margin-right: 2px;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.10);
