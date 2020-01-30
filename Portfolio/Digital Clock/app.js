@@ -1,8 +1,3 @@
-// const now = new Date();
-// console.log(dateFns.isToday(now));
-// console.log(dateFns.format(now, 'YYYY'));
-// console.log(dateFns.format(now, 'dddd'));
-
 const clock = document.querySelector('.clock');
 
 const dates = document.querySelector('.dates');
