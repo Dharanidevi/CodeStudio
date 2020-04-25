@@ -1,0 +1,96 @@
+/* ## Layout
+
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+---------------------------------------------------------------
+## Colors
+
+### Primary
+
+- Desaturated Red: hsl(0, 36%, 70%)
+- Soft Red: hsl(0, 93%, 68%)
+
+### Neutral
+
+- Dark Grayish Red: hsl(0, 6%, 24%)
+
+### Gradients
+
+- Linear, 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%)
+- Linear, 135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%)
+
+-----------------------------------------------------------------
+### Body Copy
+
+- Font size: 16px */
+
+
+html, body, section {
+    height: 100%;
+}
+
+body {
+    color: #000;
+    text-align: center;
+}
+
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.xop-container {
+    display: flex;
+}
+.xop-left {
+    background: linear-gradient(rgba(0,0,0,0.85), rgba(255,255,255,0.10)),
+        url(../images/city.jpg);
+    background-size: cover;
+    background-position: center;
+    flex: 2;
+    padding: 1rem;
+    transition: all .2s ease-in-out;
+}
+
+.xop-right {
+    background: url(images/hero-desktop.jpg);
+        background-size: cover;
+        /* background-position: center; */
+    flex: 1;
+}
+
+
+
+.xop-left h1 {
+    font-family: 'Rock Salt', cursive;
+    font-size: 6rem;
+}
+
+
+
+.xop-button {
+    border-radius: 30px;
+    color: #fff;
+    background-color: #fcad26;
+    padding: 1.5%;
+    margin: 0 2%;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all 0.3s;
+    width: 150px;
+}
+
+.xop-button:hover {
+    background: #fcc567;
+    color: #fff;
+} 
+
