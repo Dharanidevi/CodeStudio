@@ -550,14 +550,14 @@ hr{
     }
 
     .nav{
-        margin-top: 20px;
+        margin-top: 10px;
         margin-bottom: 10px;
     }
 
     .nav .nav-item{
         display:flex;
         width: 100%;
-        padding: 10px 0px !important;
+        padding: 5px 0px !important;
         margin: 15px 0 !important;
 
         text-align: center;
@@ -740,6 +740,12 @@ hr{
         margin: 10px 5px 5px !important;
     }
 
+    h2.title{    
+        font-weight: 600;
+        font-size: 2rem;
+        letter-spacing: 0.25rem;
+    }
+    
     /* 
      Home
     */
